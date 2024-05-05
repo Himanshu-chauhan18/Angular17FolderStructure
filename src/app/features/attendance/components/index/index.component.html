@@ -1,0 +1,9 @@
+<p>index works!</p>
+<div style="text-align:center">
+    <button (click)="getUserData()">Fetch Data</button>
+</div>
+<ul style="text-align:center;list-style: none;">
+    @for(user of userdata;track user.id){
+        <li>{{user.id}} - {{user.name}}</li>
+    }
+</ul>

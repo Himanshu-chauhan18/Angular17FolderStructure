@@ -1,0 +1,26 @@
+p{
+    background-color: rgb(163, 239, 250);
+    padding: 10px 20px;
+}
+
+button{
+    background-color:transparent;
+    border:1px solid rgb(225, 175, 175);
+    padding: 10px 16px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 6px;
+}
+button{
+    background-color:transparent;
+    border:1px solid rgb(225, 175, 175);
+    padding: 10px 16px;
+    cursor: pointer;
+}
+button:hover{
+    background-color:rgb(225, 175, 175);
+    border:1px solid rgb(225, 175, 175);
+    padding: 10px 16px;
+    cursor: pointer;
+    color: white;
+}
